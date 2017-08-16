@@ -4,10 +4,6 @@
     "version": "1.0.0",
     "offline_enabled": true,
     "description": "Replace new tab with a personalized dashboard featuring your birthday countdown.",
-    "background": {
-        "persistent": false,
-        "scripts": ["ext.js"]
-    },
     "icons": {
         "128": "img/icon.png",
         "16": "img/icon.png"
