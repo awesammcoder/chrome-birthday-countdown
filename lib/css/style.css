@@ -4,6 +4,50 @@
     box-sizing: content-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+body{
+    position: absolute;
+    height: 100%;
+    width:100%;
+}
+
+#quote{
+    position: absolute;
+    bottom:20px;
+    text-align: center;
+    width:100%;
+}
+
+#quote blockquote{
+    font-size: 150%;
+    font-weight: 300;
+    text-align: center;
+    color:#fff;
+    line-height: 120%;
+    height: 40px;
+}
+
+#quote blockquote:hover .quote-author{
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+    opacity: 1;
+    transition: all .35s ease;
+}
+
+.quote-body{
+    position: relative;
+    line-height: 150%;
+    -webkit-transition: all .35s ease;
+}
+
+.quote-author{
+    position: absolute;
+    left:0;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+}
+
 .overlay {
     z-index: 0;
     position: absolute;

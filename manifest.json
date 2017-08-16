@@ -18,5 +18,9 @@
     "chrome_url_overrides": {
         "newtab":"dashboard.html"
     },
-    "short_name": "Persona"
+    "short_name": "Persona",
+    "permissions":[
+        "*://*/*",
+        "https://quotesondesign.com/*"
+    ]
 }
